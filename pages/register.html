@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="" />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../app/scss/style.css" />
+
+  <title> Register | Ternakkuy</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="overlay has-fade"></div>
+
+    <nav class="container container--pall flex flex-jc-sb flex-ai-c">
+      <a href="../index.html" class="header__logo">
+        <img src="../image/Ternakkuy.png" alt="Ternakkuy" />
+      </a>
+  </header>
+  <section class="login">
+    <div class="body">
+      <div class="center">
+        <h1>Sign Up</h1>
+        <form action="register.php" method="post" autocomplete="off">
+          <div class="txt_field">
+            <input type="text" name="username" id="username" required>
+            <span></span>
+            <label>Username</label>
+          </div>
+          <div class="txt_field">
+            <input type="email" name="email" id="email" required>
+            <span></span>
+            <label>Email</label>
+          </div>
+          <div class="txt_field">
+            <input type="number" name="phonenumber" id="phonenumber" required>
+            <span></span>
+            <label>Telephone number</label>
+          </div>
+          <div class="txt_field">
+            <input type="password" name="password" id="password" required>
+            <span></span>
+            <label>Password</label>
+          </div>
+          <input type="submit" value="Sign Up">
+          <div class="signup_link">
+            Sudah daftar? <a href="login.php">Masuk disini</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="../app/js/script.js"></script>
+</body>
+
+</html>
